@@ -22,3 +22,7 @@ Several results have been added:
 Calling main.py will launch a simple evacuation where you can specify the number of people and choose if you want to save the images of each time step (this slows the process down by a lot!)
 To change the obstacles, you will need to manually change those that are loaded by main.py ; there are 5 set of obstacles that can be loaded from global_variables.py
 Most varialbes (raidus of a person, length of a step, room size etc.) can be changed in global_variables.py
+
+# Pending improvements
+    - too many people aim for the exact same point in the exit (to very bottom and very top of the exit); this leads to very unoptimal endings. Aimed exit point should be a continuous fonction on the angle between the midpoint of the exit and the person's coordoniates
+    - axis limits of saved images do not scale with the size of the room ; simple fix waiting
