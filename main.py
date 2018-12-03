@@ -11,4 +11,4 @@ save = True if input("do you want to save images showing the evac ? (y/n) ") == 
 
 time,no_blocked = simulation(N,obstacles,save=save)
 
-print("the evacuation took",time,"timesteps leaving",no_blocked,"people dead")
+print("the evacuation took",time,"timesteps, leaving",no_blocked,"people dead")
