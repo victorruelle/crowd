@@ -17,7 +17,7 @@ Several results have been added:
 - an example of the evolution of the "heatmap" in the room during an evacuation
 - an example of curves that can be obtained (here : time of evacuation / number of people for different type of obstacles)
 
-![view of a sample evacuation](output/example.png?raw=true "Title")
+![view of a sample evacuation](output/sample evacuation.gif?raw=true "Title")
     
 # How to use 
 
