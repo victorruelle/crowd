@@ -13,9 +13,9 @@ The most complex part of the model lies in the resolution of obstructions : peop
 # Results 
 
 Several results have been added:
-    - an example of evacuation and the associated gif in the "output" folder
-    - an example of the evolution of the "heatmap" in the room during an evacuation
-    - an example of curves that can be obtained (here : time of evacuation / number of people for different type of obstacles)
+- an example of evacuation and the associated gif in the "output" folder
+- an example of the evolution of the "heatmap" in the room during an evacuation
+- an example of curves that can be obtained (here : time of evacuation / number of people for different type of obstacles)
     
 # How to use 
 
@@ -24,5 +24,5 @@ To change the obstacles, you will need to manually change those that are loaded 
 Most varialbes (raidus of a person, length of a step, room size etc.) can be changed in global_variables.py
 
 # Pending improvements
-    - too many people aim for the exact same point in the exit (to very bottom and very top of the exit); this leads to very unoptimal endings. Aimed exit point should be a continuous fonction on the angle between the midpoint of the exit and the person's coordoniates
-    - axis limits of saved images do not scale with the size of the room ; simple fix waiting
+- too many people aim for the exact same point in the exit (to very bottom and very top of the exit); this leads to very unoptimal endings. Aimed exit point should be a continuous fonction on the angle between the midpoint of the exit and the person's coordoniates
+- axis limits of saved images do not scale with the size of the room ; simple fix waiting
