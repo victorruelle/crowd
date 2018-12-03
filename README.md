@@ -12,7 +12,7 @@ The most complex part of the model lies in the resolution of obstructions : peop
 
 # Results 
 
-Several results have been added:\\
+Several results have been added:
     - an example of evacuation and the associated gif in the "output" folder
     - an example of the evolution of the "heatmap" in the room during an evacuation
     - an example of curves that can be obtained (here : time of evacuation / number of people for different type of obstacles)
